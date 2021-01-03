@@ -1,0 +1,45 @@
+.development {
+    display : block;
+    text-align: center;
+}
+.remainder {
+    width : 40px;
+    position : absolute;
+    left : 0px;
+    text-align: right;
+}
+.dividend {
+    width : 40px;
+    position : absolute;
+    left : 40px;
+    text-align: right;
+}
+.divisor {
+    width : 40px;
+    position : absolute;
+    left : 85px;
+    visibility : hidden;
+    padding-left : 15px;
+    border-left : 3px solid black;
+    border-bottom : 3px solid black;                
+}
+div {
+    width : 120px;
+    height : 100px;
+    position : absolute;
+    top : 30px;
+    left : 40px;
+}
+fieldset > div {
+    position : relative;
+    top : 10px;
+    left : auto;
+}
+fieldset {
+    height : 410px;
+    width : 40%;
+    float : left;
+}
+h3 {
+    margin : 0px;
+}
